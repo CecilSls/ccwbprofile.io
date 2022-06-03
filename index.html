@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="googlebot" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <!-- =========================== ICONS =========================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- =========================== *ANIMACIONES* ============================= -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- =========================== *CSS* ============================= -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Cecilia</title>
+</head>
+<body>
+    <!-- ========================== PRELOADER ========================= -->
+    <div id="preloader">
+        <div class="loader__section">
+            <span class="loader loader-circle">C</span>
+        </div>
+    </div>
+    <!-- =========================== HEADER =========================== -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="bi bi-house-fill nav__icon"></i>
+                            <span class="nav__text nav__text--active"> Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="bi bi-person-fill nav__icon"></i>
+                            <span class="nav__text nav__text--active">Acerca de...</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experiencia" class="nav__link">
+                            <i class="bi bi-mortarboard-fill nav__icon"></i>
+                            <span class="nav__text nav__text--active">Experiencia</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bi bi-clipboard-data-fill nav__icon"></i>
+                            <span class="nav__text nav__text--active">Skills</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portafolio" class="nav__link">
+                            <i class="bi bi-folder-fill nav__icon"></i>
+                            <span class="nav__text nav__text--active">Portafolio</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="bi bi-envelope-fill nav__icon"></i>
+                            <span class="nav__text nav__text--active">Contactame</span>
+                        </a>
+                    </li>
+                </ul>
+                <i class="nav__close bi bi-x-circle-fill" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bi bi-grid-fill"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- =========================== END HEADER =========================== -->
+    <!-- =========================== ***MAIN*** =========================== -->
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="section__container">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://twitter.com/_dvcc_" target="_blank" class="home__social-icon">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://github.com/CecilSls/" target="_blank" class="home__social-icon">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__data">
+                        <div><h1>Hola, mi nombre es... </h1></div>
+                        <div><h2>Cecilia.</h2></div>
+                        <div><h3>Soy programadora</h3></div>
+                        <div>
+                            <p>
+                                Me especializo en el desarrollo de soluciones que ayuden a la gente a
+                                facilitar y automatizar tareas desde pequeños hasta grandes requerimientos.
+                                Actualmente, me centro en mejorar mis procesos y aprender nuevas tanto
+                                tecnologías como conceptos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <span class="home__scroll-name">Desliza hacia abajo</span>
+                        <i class="bi bi-arrow-down-square home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= ***ABOUT*** ========================== -->
+        <section class="about section section__hidden" id="about">
+            <div class="section__container">
+                <h2 class="section__title">Acerca de mí</h2>
+                <span class="section__subtitle">Un poco de mí...</span>
+
+                <div class="about__content grid">
+                    <div class="about__data">
+                        <div class="about__description">
+                            <p>
+                                <span>¡Buenas!</span> Mi nombre es <span>Cecilia</span>, curse la carrera en Ingeniera en Sistemas Computacionales.
+                                Soy mexicana y llevo trabajando más de 2 años con lenguajes tales como <span>JAVA y PHP.</span>
+                            </p>
+                            <p>
+                                Dentro de mis hobbies se encuentran los videojuegos, esto último fue el motor que me impulso a tomar el camino de la 
+                                programación mientras que los retos que implica el desarrollo fueron las razones para seguir.
+                            </p>
+                            <p>
+                                Tengo experiencia en creación, actualización y pruebas de requerimientos; 
+                                tanto <span>front-end</span> como <span>back-end</span>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about__image">
+                        <div class="wrapper">
+                            <img src="assets/img/_avt.jpg" alt="About" class="about__img">
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= ***Experiencia*** ========================== -->
+        <section class="experiencia section section__hidden" id="experiencia">
+            <div class="section__container">
+                <h2 class="section__title">Experiencia</h2>
+                <span class="section__subtitle">Mi camino hasta el momento</span>
+
+                <div class="experiencia__container container">
+                    <div class="experiencia__tabs">
+                        <div class="experiencia__button button--flex experiencia--active" data-target="#educacion">
+                            <i class="bi bi-mortarboard experiencia__icon"></i>
+                            Educación
+                        </div>
+                        <div class="experiencia__button button--flex" data-target="#trabajos">
+                            <i class="bi bi-briefcase experiencia__icon"></i>
+                            Trabajos
+                        </div>
+                    </div>
+
+                    <div class="experiencia__sections">
+                        <div class="experiencia__content experiencia--active" data-content id="educacion">
+                            <div class="experiencia__data txt-right">
+                                <div>
+                                    <h3 class="experiencia__title">Ing. Sistemas Computacionales</h3>
+                                    <span class="experiencia__subtitle">Tecnologico de Comitán</span>
+                                    <div class="experiencia__calendario">
+                                        <i class="bi bi-calendar2-week"></i>
+                                        2011 - 2016
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="experiencia__rounder"></span>
+                                    <span class="experiencia__line"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experiencia__content" data-content id="trabajos">
+
+                            <div class="experiencia__data">
+                                <div></div>
+                                <div>
+                                    <span class="experiencia__rounder"></span>
+                                    <span class="experiencia__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="experiencia__title">Apoto al area TI</h3>
+                                    <span class="experiencia__subtitle">Universidad de México (UDM)</span>
+                                    <div class="experiencia__calendario">
+                                        <i class="bi bi-calendar2-week"></i>
+                                        Desde junio 2016 – noviembre 2016
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="experiencia__data txt-right">
+                                <div>
+                                    <h3 class="experiencia__title">Programadora, soporte y pruebas</h3>
+                                    <span class="experiencia__subtitle">Ennovasoft</span>
+                                    <div class="experiencia__calendario">
+                                        <i class="bi bi-calendar2-week"></i>
+                                        Desde diciembre 2016 – enero 2022
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="experiencia__rounder"></span>
+                                    <span class="experiencia__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="experiencia__data">
+                                <div></div>
+                                <div>
+                                    <span class="experiencia__rounder"></span>
+                                    <!-- <span class="experiencia__line"></span> -->
+                                </div>
+                                <div>
+                                    <h3 class="experiencia__title">FreeLancer</h3>
+                                    <!-- <span class="experiencia__subtitle">Universidad de México (UDM)</span> -->
+                                    <div class="experiencia__calendario">
+                                        <i class="bi bi-calendar2-week"></i>
+                                        Desde enero 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ======================= ***Skills*** ========================== -->
+        <section class="skills section section__hidden" id="skills">
+            <div class="section__container">
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Lenguajes, librerias, etc...</span>
+
+                <div class="skills__content grid">
+                    <div role="tablist" aria-label="skill tab" class="skills__tabs">
+                        <button id="tab-0" role="tab" aria-selected="true" tabindex="0"
+                            selected="true" aria-controls="panel-0" class="skills__tab">
+                            Tecnologias
+                        </button>
+                        <button id="tab-1" role="tab" aria-selected="false" tabindex="1"
+                            aria-controls="panel-1" class="skills__tab">
+                            Herramientas
+                        </button>
+                        <button id="tab-2" role="tab" aria-selected="false" tabindex="2"
+                            aria-controls="panel-2" class="skills__tab">
+                            Metodologias y Habilidades
+                        </button>
+                    </div>
+                    <div class="skills__panels">
+                        <div id="panel-0" role="tabpanel" tabindex="0"
+                            aria-labelledby="tab-0" aria-hidden="false"
+                            class="skills__panel">
+                            <div>
+                                <ul>
+                                    <li>JAVA</li>
+                                    <li>PHP</li>
+                                    <li>JavaScript</li>
+                                    <li>TypeScript</li>
+                                    <li>HTML</li>
+                                    <li>JQuery</li>
+                                    <li>CSS</li>
+                                    <li>Spring</li>
+                                    <li>Hiberante</li>
+                                    <li>Angular</li>
+                                    <li>NodeJS</li>
+                                    <li>MySQL</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="panel-1" role="tabpanel" tabindex="1"
+                            aria-labelledby="tab-1" aria-hidden="true"
+                            hidden="true" class="skills__panel">
+                            <div>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>Heroku</li>
+                                    <li>Stack</li>
+                                    <li>SVN</li>
+                                    <li>Postman</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="panel-2" role="tabpanel" tabindex="2"
+                            aria-labelledby="tab-2" aria-hidden="true"
+                            hidden="true" class="skills__panel">
+                            <div>
+                                <ul>
+                                    <li>Desarrollo web</li>
+                                    <li>SCRUM</li>
+                                    <li>CMMI</li>
+                                    <li>Trabajo en equipo</li>
+                                    <li>Pasión por aprender</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= ***Portafolio*** ========================== -->
+        <section class="portafolio section section__hidden" id="portafolio">
+            <div class="section__container swiper">
+                <h2 class="section__title">Portafolio</h2>
+                <span class="section__subtitle">Ejemplo de trabajos realizados</span>
+
+                <div class="swiper-wrapper">
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="assets/img/portafolio/prt_00_04.jpg" alt="proyect_00" class="portafolio__img img__box">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">Juego 00</h3>
+                            <p class="portafolio__description">
+                                Juego con el cual practique JAVA en la universidad, es un proyecto que usa puramente
+                                las herramientas brindadas por el paquete SWING de Java. El juego consiste en "eliminar" las gemas de
+                                colores evitando varios disparos que hacen diferentes enemigos, en total contaba con 7 niveles.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="assets/img/portafolio/prt_01_02.jpg" alt="proyect_01" class="portafolio__img img__box">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">Juego 01</h3>
+                            <p class="portafolio__description">
+                                Al igual que el ejemplo anterior, este juego se hizo en su mayoría con las librerías nativas de JAVA salvo que esta vez se uso un JAR de terceros para la parte de la musicalización. El juego era un beat'em up con 6 niveles y sus respectivos jefes finales; contaba también con créditos finales y una tabla de score.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="assets/img/_no_photo.jpg" alt="proyect_01" class="portafolio__img">
+                        
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">REST API PHP con JWT</h3>
+                            <p class="portafolio__description">
+                                Plantilla base para el desarrollo de una API en PHP con comprobación de un token web usando la
+                                librería firebase para el lenguaje antes mencionado. Se puede encontrar el ejemplo del código en
+                                mi repositorio.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="assets/img/_no_photo.jpg" alt="proyect_01" class="portafolio__img">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">DLL de comunicación</h3>
+                            <p class="portafolio__description">
+                                DLL realizada en C# con el fin de comunicar un socket JAVA con aplicativos desarrollados en lenguajes como
+                                Visual Basic, Pascal o C++.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="assets/img/_no_photo.jpg" alt="proyect_01" class="portafolio__img">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">Administrador de vales</h3>
+                            <p class="portafolio__description">
+                                Actualización y soporte de una aplicación desarrollada en JAVA con el uso del framework Spring Boot cuyo fin era la administración de vales para diferentes emisoras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- ======================= ***Contacto*** ========================== -->
+        <section class="contact section section__hidden" id="contact">
+            <div class="section__container">
+                <h2 class="section__title">Contactame</h2>
+                <div class="section__subtitle">Por medio del siguiente correo:</div>
+                <div class="contact__container">
+                    <div class="contact__information">
+                        <i class="bi bi-mailbox contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Emai:</h3>
+                            <span class="contact__subtitle">ccilia.bscontac@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <a href="mailto:ccilia.bscontact@gmail.com?Subject=Interesado%20en%20el%20portafolio"
+                            target="_blank" class="button button--flex">
+                            Enviar mensaje
+                            <i class="bi bi-send button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- =========================== PIE DE PAGINA =========================== -->
+    <footer class="footer">
+        <div class="footer__social">
+            <ul>
+                <li>
+                    <a href="https://github.com/CecilSls/" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://twitter.com/_dvcc_" target="_blank">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__disclaimer">
+            <div>Realizado por: Cecilia</div>
+            <div>v.1.0.0</div>
+        </div>
+    </footer>    
+    <!-- =========================== SCROLL WEB =========================== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bi bi-arrow-up-square scrollup__icon"></i>
+    </a>
+    <!-- =========================== IMG MODAL  =========================== -->
+    <div id="mdl-img" class="modal">
+        <div class="modal__content">
+            <!-- <div> -->
+                <span class="modal__close" id="modal-close">&times;</span>
+            <!-- </div> -->
+            <img src="" alt="" id="modal-image" class="modal__img">
+        </div>
+    </div>
+    <!-- =========================== SCRIPT JS  =========================== -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.min.js"></script>
+</body>
+</html>
